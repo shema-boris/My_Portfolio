@@ -36,11 +36,11 @@ const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-2xl sm:text-3xl font-bold mb-8 uppercase tracking-wide">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-10 uppercase tracking-wide">
           Ready to Collaborate?
         </h2>
 
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-5">
           <div>
             <label htmlFor="name" className="block text-sm text-dark-muted mb-1">
               Name
@@ -99,7 +99,7 @@ const Contact = () => {
         </form>
 
         {/* Contact Info */}
-        <div className="mt-8 space-y-3">
+        <div className="mt-10 space-y-4">
           <div className="flex items-center gap-3 text-sm text-dark-muted">
             <Phone className="w-4 h-4" />
             <span>+1 (318) 512-1749</span>
@@ -115,7 +115,7 @@ const Contact = () => {
         </div>
 
         {/* Social Icons */}
-        <div className="flex items-center gap-4 mt-6">
+        <div className="flex items-center gap-5 mt-8">
           {socialLinks.map((link) => {
             const Icon = link.icon;
             return (

@@ -4,6 +4,7 @@
   --color-primary: #3b82f6;
   --color-primary-dark: #2563eb;
   --color-dark-bg: #0a0e17;
+  --color-dark-bg-alt: #0e1322;
   --color-dark-card: #111827;
   --color-dark-card-hover: #1a2332;
   --color-dark-border: #1e293b;
@@ -28,6 +29,7 @@ body {
   background-color: var(--color-dark-bg);
   color: var(--color-dark-text);
   min-height: 100vh;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

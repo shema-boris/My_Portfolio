@@ -9,7 +9,7 @@ const Education = () => {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-3xl sm:text-4xl font-bold mb-10"
+        className="text-3xl sm:text-4xl font-bold mb-12"
       >
         Education
       </motion.h2>

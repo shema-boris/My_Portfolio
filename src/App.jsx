@@ -12,14 +12,18 @@ function App() {
     <div className="min-h-screen bg-dark-bg text-dark-text">
       <Navbar />
       <Hero />
-      <About />
+
+      <div className="bg-dark-bg-alt">
+        <About />
+      </div>
+
       <Projects />
 
       {/* Experience + Contact side by side */}
-      <section id="experience" className="py-20 relative">
+      <section id="experience" className="py-28 lg:py-32 bg-dark-bg-alt relative">
         <div className="absolute bottom-0 left-1/4 w-[500px] h-[300px] bg-primary/4 rounded-full blur-[120px] pointer-events-none" />
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="max-w-[1150px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
             <Experience />
             <div id="contact">
               <Contact />
@@ -29,8 +33,8 @@ function App() {
       </section>
 
       {/* Education - independent section */}
-      <section id="education" className="py-20">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="education" className="py-28 lg:py-32">
+        <div className="max-w-[1150px] mx-auto px-4 sm:px-6 lg:px-8">
           <Education />
         </div>
       </section>
