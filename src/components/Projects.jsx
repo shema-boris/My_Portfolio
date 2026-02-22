@@ -18,7 +18,7 @@ const projects = [
     title: 'Real-Time Sports Analytics',
     description:
       'A real-time analytics system with live data streaming, WebSocket updates, and interactive dashboards.',
-    image: null,
+    image: '/PL Intelligence.JPG',
   },
 ];
 
