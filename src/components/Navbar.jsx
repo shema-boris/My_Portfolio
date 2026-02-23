@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Download } from 'lucide-react';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
     { name: 'About', href: '#about' },
+    { name: 'Education', href: '#education' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
@@ -33,7 +34,7 @@ const Navbar = () => {
           href="#"
           className="hidden md:inline-flex items-center px-5 py-2 bg-indigo-500 hover:bg-indigo-600 text-white text-sm font-medium rounded-2xl transition-colors"
         >
-          Resume
+          <Download className="mr-2 w-4 h-4" /> Resume
         </a>
 
         {/* Mobile Menu Button */}
@@ -62,7 +63,7 @@ const Navbar = () => {
             href="#"
             className="inline-flex items-center mt-2 px-5 py-2 bg-indigo-500 text-white text-sm font-medium rounded-2xl"
           >
-            Resume
+            <Download className="mr-2 w-4 h-4" /> Resume
           </a>
         </div>
       )}

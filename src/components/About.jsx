@@ -20,11 +20,14 @@ const About = () => {
           transition={{ delay: 0.1 }}
           className="text-white/70 text-lg leading-relaxed"
         >
-          I am a growth-driven student who enjoys deep learning, problem
-          solving, and thoughtful design. My work blends technical knowledge
-          with creativity, allowing me to build smart, clean, and user-focused
-          digital solutions. I aim to contribute to innovative teams where I
-          can continuously learn and create meaningful impact.
+          I am a Computer Science student with a 3.91 GPA who enjoys deeply
+          understanding systems rather than just using them. My interests lie
+          at the intersection of Artificial Intelligence, software
+          engineering, and research-driven development. I focus on building
+          intelligent, scalable, and well-structured solutions using modern
+          technologies such as React, FastAPI, and AI frameworks. I am
+          particularly motivated by complex problems that require analytical
+          thinking, technical depth, and long-term learning.
         </motion.p>
       </div>
     </section>

@@ -21,8 +21,10 @@ const Contact = () => {
           transition={{ delay: 0.1 }}
           className="text-white/70 mb-8"
         >
-          I am open to internships, research opportunities, and collaborative
-          projects. Feel free to reach out.
+          I am actively seeking internship opportunities in Software
+          Engineering, Artificial Intelligence, or Research Engineering where
+          I can contribute technically while continuing to grow as a
+          developer and researcher.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
