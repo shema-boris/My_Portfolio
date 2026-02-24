@@ -31,7 +31,9 @@ const Navbar = () => {
         </div>
 
         <a
-          href="#"
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:inline-flex items-center px-5 py-2 bg-indigo-500 hover:bg-indigo-600 text-white text-sm font-medium rounded-2xl transition-colors"
         >
           <Download className="mr-2 w-4 h-4" /> Resume
@@ -60,7 +62,9 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#"
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center mt-2 px-5 py-2 bg-indigo-500 text-white text-sm font-medium rounded-2xl"
           >
             <Download className="mr-2 w-4 h-4" /> Resume
