@@ -48,17 +48,20 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
-          className="relative"
+          className="relative flex justify-center"
         >
-          <div className="absolute -inset-4 bg-gradient-to-r from-indigo-500 to-purple-600 blur-3xl opacity-20 rounded-3xl" />
-          <div className="relative bg-white/5 border border-white/10 backdrop-blur-xl rounded-3xl shadow-2xl p-8">
-            <h3 className="text-xl font-semibold mb-4">Quick Profile</h3>
-            <ul className="space-y-3 text-white/70">
-              <li>🎓 B.S. Computer Science (In Progress)</li>
-              <li>🤖 AI &amp; Agentic Systems Enthusiast</li>
-              <li>🧠 Strong Analytical &amp; Research Mindset</li>
-              <li>� Full-Stack &amp; AI Development Focus</li>
-            </ul>
+          <div className="absolute w-72 h-72 bg-gradient-to-r from-indigo-500 to-purple-600 blur-3xl opacity-30 rounded-full" />
+
+          <div className="relative">
+            <img
+              src="/ProfilePic.jpg"
+              alt="Shema Boris Benimana"
+              className="w-72 h-72 object-cover rounded-full border-4 border-white/20 shadow-2xl"
+            />
+            <div className="mt-6 text-center">
+              <p className="text-lg font-semibold">AI &amp; Software Engineering Focus</p>
+              <p className="text-white/60 text-sm">Open to Internship Opportunities</p>
+            </div>
           </div>
         </motion.div>
       </div>

@@ -8,6 +8,7 @@ const projects = [
       'A video management platform that lets users upload, organize, and stream content with a clean UI and scalable backend.',
     image: '/Vidnest.JPG',
     link: 'https://vidnest-ten.vercel.app/',
+    tools: ['React', 'Node.js', 'MongoDB', 'Cloudinary'],
   },
   {
     title: 'AI Career Platform',
@@ -15,6 +16,7 @@ const projects = [
       'An AI-powered platform providing personalized interview prep and smart document workflows across 50+ industries.',
     image: '/stepwise.JPG',
     link: 'https://stepwise-delta.vercel.app/',
+    tools: ['Next.js', 'FastAPI', 'OpenAI API', 'LangChain'],
   },
   {
     title: 'Real-Time Sports Analytics',
@@ -22,6 +24,7 @@ const projects = [
       'A real-time analytics system with live data streaming, WebSocket updates, and interactive dashboards.',
     image: '/PL Intelligence.JPG',
     link: 'https://pl-analysis.vercel.app/',
+    tools: ['Python', 'PostgreSQL', 'WebSockets', 'Redis'],
   },
 ];
 
@@ -54,19 +57,32 @@ const Projects = () => {
               >
                 <Wrapper
                   {...wrapperProps}
-                  className={`block bg-gradient-to-br from-white/5 to-white/0 border border-white/10 rounded-3xl hover:-translate-y-2 transition duration-300 shadow-xl p-6${project.link ? ' cursor-pointer' : ''}`}
+                  className={`block bg-gradient-to-br from-white/5 to-white/0 border border-white/10 rounded-3xl hover:-translate-y-2 transition duration-300 shadow-xl p-6 flex flex-col justify-between h-full${project.link ? ' cursor-pointer' : ''}`}
                 >
-                  <div className="h-40 rounded-2xl bg-white/10 mb-4 overflow-hidden">
-                    {project.image && (
-                      <img
-                        src={project.image}
-                        alt={`${project.title} preview`}
-                        className="w-full h-full object-cover"
-                      />
-                    )}
+                  <div>
+                    <div className="h-40 rounded-2xl bg-white/10 mb-4 overflow-hidden">
+                      {project.image && (
+                        <img
+                          src={project.image}
+                          alt={`${project.title} preview`}
+                          className="w-full h-full object-cover"
+                        />
+                      )}
+                    </div>
+                    <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                    <p className="text-white/70 text-sm mb-4">{project.description}</p>
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                  <p className="text-white/70 text-sm">{project.description}</p>
+
+                  <div className="flex flex-wrap gap-2">
+                    {project.tools.map((tool, index) => (
+                      <span
+                        key={index}
+                        className="text-xs px-3 py-1 rounded-full bg-white/10 border border-white/10 text-white/70"
+                      >
+                        {tool}
+                      </span>
+                    ))}
+                  </div>
                 </Wrapper>
               </motion.div>
             );
