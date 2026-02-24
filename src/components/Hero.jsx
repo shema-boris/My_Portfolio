@@ -59,7 +59,7 @@ const Hero = () => {
               className="w-72 h-72 object-cover rounded-full border-4 border-white/20 shadow-2xl"
             />
             <div className="mt-6 text-center">
-              <p className="text-lg font-semibold">AI &amp; Software Engineering Focus</p>
+              <p className="text-lg font-semibold">AI &amp; Software Engineering Enthusiast</p>
             </div>
           </div>
         </motion.div>
