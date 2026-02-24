@@ -8,7 +8,7 @@ const projects = [
       'A video management platform that lets users upload, organize, and stream content with a clean UI and scalable backend.',
     image: '/Vidnest.JPG',
     link: 'https://vidnest-ten.vercel.app/',
-    tools: ['React', 'Node.js', 'MongoDB', 'Cloudinary'],
+    tools: ['React.js', 'Node.js', 'MongoDB', 'CI/CD'],
   },
   {
     title: 'AI Career Platform',
@@ -16,7 +16,7 @@ const projects = [
       'An AI-powered platform providing personalized interview prep and smart document workflows across 50+ industries.',
     image: '/stepwise.JPG',
     link: 'https://stepwise-delta.vercel.app/',
-    tools: ['Next.js', 'FastAPI', 'OpenAI API', 'LangChain'],
+    tools: ['Next.js', 'Gemini', 'PostgreSQL'],
   },
   {
     title: 'Real-Time Sports Analytics',
@@ -24,7 +24,7 @@ const projects = [
       'A real-time analytics system with live data streaming, WebSocket updates, and interactive dashboards.',
     image: '/PL Intelligence.JPG',
     link: 'https://pl-analysis.vercel.app/',
-    tools: ['Python', 'PostgreSQL', 'WebSockets', 'Redis'],
+    tools: ['Python', 'PostgreSQL', 'FastAPI', 'Redis', 'TypeScript'],
   },
 ];
 

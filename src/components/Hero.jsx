@@ -12,7 +12,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <p className="text-sm uppercase tracking-widest text-indigo-400 mb-4">
-            Computer Science Portfolio
+            Welcome to My Portfolio
           </p>
           <h2 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
             Shema Boris Benimana
@@ -60,7 +60,6 @@ const Hero = () => {
             />
             <div className="mt-6 text-center">
               <p className="text-lg font-semibold">AI &amp; Software Engineering Focus</p>
-              <p className="text-white/60 text-sm">Open to Internship Opportunities</p>
             </div>
           </div>
         </motion.div>
