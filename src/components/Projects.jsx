@@ -21,7 +21,7 @@ const projects = [
     description:
       'A real-time analytics system with live data streaming, WebSocket updates, and interactive dashboards.',
     image: '/PL Intelligence.JPG',
-    link: null,
+    link: 'https://pl-analysis.vercel.app/',
   },
 ];
 
